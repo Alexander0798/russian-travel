@@ -12,4 +12,4 @@
 
 **Проект**
 
-* [Ссылка на макет Проект - Путешествие по России] https://alexander0798.github.io/russian-travel/index.html
+* [Ссылка на макет Проект - Путешествие по России](https://alexander0798.github.io/russian-travel/index.html)
