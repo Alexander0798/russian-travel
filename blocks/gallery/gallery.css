@@ -1,10 +1,9 @@
 .gallery{
-  margin: 0 auto;
   display: grid;
   grid-template: repeat(auto-fit, minmax(216px, 1fr)) / repeat(auto-fit, minmax(284px, 1fr));
   gap: 12px;
   justify-content: center;
-  margin: 0 16px
+  margin: 0 16px;
 }
 @media (min-width: 730px){
   .gallery{

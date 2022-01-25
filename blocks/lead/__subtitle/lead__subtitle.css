@@ -16,9 +16,10 @@
     font-size: 30px;
     max-width: 550px;
     margin: 0 auto 56px;
+  }
 }
 @media (min-width: 1280px){
   .lead__subtitle{
     margin: 0 auto 64px;
-
+  }
 }

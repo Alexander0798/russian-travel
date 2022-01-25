@@ -9,8 +9,7 @@
     grid-template-columns: 340px  0.9fr;
     grid-template-areas:
       'title url'
-      'img discription'
-    ;
+      'img discription';
   }
   .card:not(:last-of-type){
     margin: 0 0 73px;
