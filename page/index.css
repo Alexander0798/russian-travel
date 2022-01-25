@@ -31,7 +31,7 @@
 @import url('../blocks/intro/__description/intro__description.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__item/intro__item.css');
-@import url('../blocks/intro/_text/intro__item_text_bold.css');
+@import url('../blocks/intro/__bold/intro__bold.css');
 
 /*----------------------- GALLERY ------------------------------ */
 
