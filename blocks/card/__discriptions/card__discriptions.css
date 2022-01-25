@@ -1,0 +1,13 @@
+.card__discriptions{
+  padding: 0 16px;
+}
+@media (min-width: 768px){
+  .card__discriptions{
+    grid-area: discription;
+    padding: 0 0 32px;
+  }
+}
+@media (min-width: 1024px){
+  .card__discriptions{
+    padding: 0;
+  }

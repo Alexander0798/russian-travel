@@ -1,0 +1,10 @@
+.card__website{
+  grid-area: url;
+  align-self: end;
+  padding: 0 16px 32px;
+}
+@media (min-width: 768px){
+  .card__website{
+    padding: 0;
+  }
+}

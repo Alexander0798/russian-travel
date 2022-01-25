@@ -1,0 +1,18 @@
+.lead__caption{
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 8px 0 0 16px;
+  margin: 0;
+}
+@media (min-width: 768px){
+  .lead__caption{
+    padding: 8px 0 0 24px;
+  }
+}
+@media (min-width: 932px){
+  .lead__caption{
+    padding: 8px 0 0;
+  }
+}

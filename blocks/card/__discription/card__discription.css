@@ -1,0 +1,14 @@
+.card__discription{
+  margin: 0;
+  font-size: 16px;
+  line-height: 163%;  
+}
+.card__discription:not(:last-of-type){
+  margin: 0 0 25px;
+}
+
+@media (min-width: 1024px){
+  .card__discription{
+    font-size: 18px;  
+  }  
+}
