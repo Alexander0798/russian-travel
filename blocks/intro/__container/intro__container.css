@@ -1,0 +1,5 @@
+@media (min-width: 968px) {
+  .intro__container {
+    max-width: 690px;
+  }
+}

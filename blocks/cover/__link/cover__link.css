@@ -1,5 +1,8 @@
-.cover__link{
-  background: rgba(42, 44, 47, .3);
+/* я хочу что бы блок был резиновым и высота зависела от ширины я не нашел другова способа
+ дригие способы не рабоатют! какие есть варианты сделать всё тоже самое не задавая фиксированую высоту не используя min-height,
+а расширять падингом не целесобразно через cover::before не работает!*/
+
+.cover__link {
   position: absolute;
   top: 0;
   left: 0;
@@ -11,8 +14,9 @@
   align-items: center;
   color: inherit;
   text-decoration: none;
-  transition: linear .3s;
+  transition: linear 0.3s;
+  z-index: 1;
 }
-.cover__link:hover{
-  background: rgba(42, 44, 47, .8);
+.cover__link:hover {
+  background: rgba(42, 44, 47, 0.8);
 }

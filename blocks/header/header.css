@@ -1,24 +1,23 @@
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 16px 16px 0;
 }
-@media (min-width: 768px){
-  .header{
+@media (min-width: 768px) {
+  .header {
     padding: 28px 24px 0;
   }
 }
-@media (min-width: 1024px){
-  .header{
+@media (min-width: 1024px) {
+  .header {
     padding: 28px 0 0;
     max-width: 928px;
     margin: 0 auto;
   }
 }
-@media (min-width: 1280px){
-  .header{
+@media (min-width: 1280px) {
+  .header {
     max-width: 1184px;
-    margin: 0 auto;
   }
 }

@@ -1,21 +1,21 @@
-.footer{
+.footer {
   padding: 64px 16px 24px;
 }
 
-@media (min-width: 768px){
-  .footer{
+@media (min-width: 768px) {
+  .footer {
     display: flex;
     justify-content: space-between;
     padding: 88px 24px 24px;
   }
 }
-@media (min-width: 1024px){
-  .footer{
+@media (min-width: 1024px) {
+  .footer {
     padding: 92px 48px 24px;
   }
 }
-@media (min-width: 1184px){
-  .footer{
+@media (min-width: 1184px) {
+  .footer {
     padding: 92px 0 24px;
   }
 }

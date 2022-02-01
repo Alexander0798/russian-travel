@@ -1,11 +1,13 @@
-.cover{
+.cover {
   max-width: 1184px;
   position: relative;
   padding-bottom: 62.5%;
-  background: url('../../image/cover/cover__bg.jpg') center/cover no-repeat;
-  }
-.cover::before{
-    display: block;
-    content: '';
-    max-width: 1184px;
+  background: url("../../image/cover/cover__bg.jpg") center/cover no-repeat;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  background: rgba(42, 44, 47, 0.3);
 }

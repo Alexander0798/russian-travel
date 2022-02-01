@@ -1,17 +1,17 @@
-.card__img{
+.card__img {
   grid-area: img;
   width: 100%;
   padding: 0 0 30px;
 }
-@media (min-width: 450px){
-  .card__img{
+@media (min-width: 450px) {
+  .card__img {
     width: 70%;
     display: block;
     margin: 0 auto;
   }
 }
-@media (min-width: 768px){
-  .card__img{
+@media (min-width: 768px) {
+  .card__img {
     width: 100%;
     padding: 0;
   }

@@ -1,4 +1,4 @@
-.header__button{
+.header__button {
   background: transparent;
   color: inherit;
   border: none;
@@ -7,8 +7,8 @@
   line-height: 1.2;
   margin: 0 0 8px;
 }
-@media (min-width: 768px){
-  .header__button{
+@media (min-width: 768px) {
+  .header__button {
     font-size: 24px;
     margin: 0 0 6px;
   }
