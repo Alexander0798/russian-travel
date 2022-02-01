@@ -4,10 +4,3 @@
   padding-bottom: 62.5%;
   background: url("../../image/cover/cover__bg.jpg") center/cover no-repeat;
 }
-.cover::before {
-  content: "";
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  background: rgba(42, 44, 47, 0.3);
-}
