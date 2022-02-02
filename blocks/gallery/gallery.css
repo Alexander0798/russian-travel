@@ -14,11 +14,6 @@
     gap: 16px;
   }
 }
-@media (min-width: 968px) {
-  .gallery {
-    gap: 16px;
-  }
-}
 @media (min-width: 1024px) {
   .gallery {
     max-width: 928px;
