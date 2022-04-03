@@ -62,3 +62,14 @@
 @import url("../blocks/footer/__list/footer__list.css");
 @import url("../blocks/footer/__item/footer__item.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
+
+.back-arrow {
+  display: block;
+  position: fixed;
+  bottom: 40px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  background: url('../../../img/back_arrow-white.svg');
+}
