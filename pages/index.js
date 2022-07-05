@@ -1,5 +1,5 @@
 const buttonLenght = Array.from(document.querySelectorAll('.header__button'))
-const languageEn = document.querySelectorAll('#en')
+
 
 // подчёркнуть активный язык
 const underlineActive = (arr) => {
@@ -12,9 +12,11 @@ const underlineActive = (arr) => {
       }
       })
       el.classList.add('header__button_active');
+      if(el.id === 'en'){
+        console.log('asdfasdf')
+      }
     }, false);
   });
 }
 
 underlineActive(buttonLenght)
-
